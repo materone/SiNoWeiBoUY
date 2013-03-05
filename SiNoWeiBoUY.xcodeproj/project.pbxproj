@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA61015216E6518B000CA810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61015116E6518B000CA810 /* UIKit.framework */; };
+		EA61015416E6518B000CA810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61015316E6518B000CA810 /* Foundation.framework */; };
+		EA61015616E6518B000CA810 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61015516E6518B000CA810 /* CoreGraphics.framework */; };
+		EA61015C16E6518B000CA810 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA61015A16E6518B000CA810 /* InfoPlist.strings */; };
+		EA61015E16E6518B000CA810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61015D16E6518B000CA810 /* main.m */; };
+		EA61016216E6518B000CA810 /* org_chufanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61016116E6518B000CA810 /* org_chufanAppDelegate.m */; };
+		EA61016416E6518B000CA810 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA61016316E6518B000CA810 /* Default.png */; };
+		EA61016616E6518B000CA810 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA61016516E6518B000CA810 /* Default@2x.png */; };
+		EA61016816E6518B000CA810 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA61016716E6518B000CA810 /* Default-568h@2x.png */; };
+		EA61016B16E6518B000CA810 /* org_chufanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61016A16E6518B000CA810 /* org_chufanViewController.m */; };
+		EA61016E16E6518B000CA810 /* org_chufanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA61016C16E6518B000CA810 /* org_chufanViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA61014E16E6518B000CA810 /* SiNoWeiBoUY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiNoWeiBoUY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA61015116E6518B000CA810 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA61015316E6518B000CA810 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA61015516E6518B000CA810 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA61015916E6518B000CA810 /* SiNoWeiBoUY-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SiNoWeiBoUY-Info.plist"; sourceTree = "<group>"; };
+		EA61015B16E6518B000CA810 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA61015D16E6518B000CA810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA61015F16E6518B000CA810 /* SiNoWeiBoUY-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SiNoWeiBoUY-Prefix.pch"; sourceTree = "<group>"; };
+		EA61016016E6518B000CA810 /* org_chufanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = org_chufanAppDelegate.h; sourceTree = "<group>"; };
+		EA61016116E6518B000CA810 /* org_chufanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = org_chufanAppDelegate.m; sourceTree = "<group>"; };
+		EA61016316E6518B000CA810 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA61016516E6518B000CA810 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA61016716E6518B000CA810 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA61016916E6518B000CA810 /* org_chufanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = org_chufanViewController.h; sourceTree = "<group>"; };
+		EA61016A16E6518B000CA810 /* org_chufanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = org_chufanViewController.m; sourceTree = "<group>"; };
+		EA61016D16E6518B000CA810 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/org_chufanViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA61014B16E6518B000CA810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA61015216E6518B000CA810 /* UIKit.framework in Frameworks */,
+				EA61015416E6518B000CA810 /* Foundation.framework in Frameworks */,
+				EA61015616E6518B000CA810 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA61014516E6518B000CA810 = {
+			isa = PBXGroup;
+			children = (
+				EA61015716E6518B000CA810 /* SiNoWeiBoUY */,
+				EA61015016E6518B000CA810 /* Frameworks */,
+				EA61014F16E6518B000CA810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA61014F16E6518B000CA810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA61014E16E6518B000CA810 /* SiNoWeiBoUY.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA61015016E6518B000CA810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA61015116E6518B000CA810 /* UIKit.framework */,
+				EA61015316E6518B000CA810 /* Foundation.framework */,
+				EA61015516E6518B000CA810 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA61015716E6518B000CA810 /* SiNoWeiBoUY */ = {
+			isa = PBXGroup;
+			children = (
+				EA61016016E6518B000CA810 /* org_chufanAppDelegate.h */,
+				EA61016116E6518B000CA810 /* org_chufanAppDelegate.m */,
+				EA61016916E6518B000CA810 /* org_chufanViewController.h */,
+				EA61016A16E6518B000CA810 /* org_chufanViewController.m */,
+				EA61016C16E6518B000CA810 /* org_chufanViewController.xib */,
+				EA61015816E6518B000CA810 /* Supporting Files */,
+			);
+			path = SiNoWeiBoUY;
+			sourceTree = "<group>";
+		};
+		EA61015816E6518B000CA810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA61015916E6518B000CA810 /* SiNoWeiBoUY-Info.plist */,
+				EA61015A16E6518B000CA810 /* InfoPlist.strings */,
+				EA61015D16E6518B000CA810 /* main.m */,
+				EA61015F16E6518B000CA810 /* SiNoWeiBoUY-Prefix.pch */,
+				EA61016316E6518B000CA810 /* Default.png */,
+				EA61016516E6518B000CA810 /* Default@2x.png */,
+				EA61016716E6518B000CA810 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA61014D16E6518B000CA810 /* SiNoWeiBoUY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA61017116E6518C000CA810 /* Build configuration list for PBXNativeTarget "SiNoWeiBoUY" */;
+			buildPhases = (
+				EA61014A16E6518B000CA810 /* Sources */,
+				EA61014B16E6518B000CA810 /* Frameworks */,
+				EA61014C16E6518B000CA810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiNoWeiBoUY;
+			productName = SiNoWeiBoUY;
+			productReference = EA61014E16E6518B000CA810 /* SiNoWeiBoUY.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA61014616E6518B000CA810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = org.chufan;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Tony;
+			};
+			buildConfigurationList = EA61014916E6518B000CA810 /* Build configuration list for PBXProject "SiNoWeiBoUY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA61014516E6518B000CA810;
+			productRefGroup = EA61014F16E6518B000CA810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA61014D16E6518B000CA810 /* SiNoWeiBoUY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA61014C16E6518B000CA810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA61015C16E6518B000CA810 /* InfoPlist.strings in Resources */,
+				EA61016416E6518B000CA810 /* Default.png in Resources */,
+				EA61016616E6518B000CA810 /* Default@2x.png in Resources */,
+				EA61016816E6518B000CA810 /* Default-568h@2x.png in Resources */,
+				EA61016E16E6518B000CA810 /* org_chufanViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA61014A16E6518B000CA810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA61015E16E6518B000CA810 /* main.m in Sources */,
+				EA61016216E6518B000CA810 /* org_chufanAppDelegate.m in Sources */,
+				EA61016B16E6518B000CA810 /* org_chufanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA61015A16E6518B000CA810 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA61015B16E6518B000CA810 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA61016C16E6518B000CA810 /* org_chufanViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA61016D16E6518B000CA810 /* en */,
+			);
+			name = org_chufanViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA61016F16E6518B000CA810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA61017016E6518B000CA810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA61017216E6518C000CA810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SiNoWeiBoUY/SiNoWeiBoUY-Prefix.pch";
+				INFOPLIST_FILE = "SiNoWeiBoUY/SiNoWeiBoUY-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA61017316E6518C000CA810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SiNoWeiBoUY/SiNoWeiBoUY-Prefix.pch";
+				INFOPLIST_FILE = "SiNoWeiBoUY/SiNoWeiBoUY-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA61014916E6518B000CA810 /* Build configuration list for PBXProject "SiNoWeiBoUY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA61016F16E6518B000CA810 /* Debug */,
+				EA61017016E6518B000CA810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA61017116E6518C000CA810 /* Build configuration list for PBXNativeTarget "SiNoWeiBoUY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA61017216E6518C000CA810 /* Debug */,
+				EA61017316E6518C000CA810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA61014616E6518B000CA810 /* Project object */;
+}
