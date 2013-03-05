@@ -7,12 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SinaWeibo.h"
 
-@interface org_chufanViewController : UIViewController{
-    UIButton *login;
+#import "SinaWeiboRequest.h"
+@interface org_chufanViewController : UIViewController <SinaWeiboDelegate, SinaWeiboRequestDelegate>{
+    IBOutlet UIButton *login;
+    IBOutlet UITextView *mess;
     NSDictionary *userInfo;
     NSArray *statuses;
     NSString *postStatusText;
     NSString *postImageStatusText;
 }
+@property (nonatomic,retain) UIButton *login;
+@property (nonatomic,retain) UITextView *mess;
+-(IBAction) login:(id)sender;
 @end
