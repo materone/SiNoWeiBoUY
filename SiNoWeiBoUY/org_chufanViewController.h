@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface org_chufanViewController : UIViewController
-
+@interface org_chufanViewController : UIViewController{
+    UIButton *login;
+    NSDictionary *userInfo;
+    NSArray *statuses;
+    NSString *postStatusText;
+    NSString *postImageStatusText;
+}
 @end

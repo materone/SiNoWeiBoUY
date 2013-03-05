@@ -18,6 +18,11 @@
 		EA61016816E6518B000CA810 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA61016716E6518B000CA810 /* Default-568h@2x.png */; };
 		EA61016B16E6518B000CA810 /* org_chufanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61016A16E6518B000CA810 /* org_chufanViewController.m */; };
 		EA61016E16E6518B000CA810 /* org_chufanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA61016C16E6518B000CA810 /* org_chufanViewController.xib */; };
+		EA61018216E65201000CA810 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61017816E65201000CA810 /* JSONKit.m */; };
+		EA61018316E65201000CA810 /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA61017A16E65201000CA810 /* SinaWeibo.bundle */; };
+		EA61018416E65201000CA810 /* SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61017C16E65201000CA810 /* SinaWeibo.m */; };
+		EA61018516E65201000CA810 /* SinaWeiboAuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61017E16E65201000CA810 /* SinaWeiboAuthorizeView.m */; };
+		EA61018616E65201000CA810 /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61018116E65201000CA810 /* SinaWeiboRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,16 @@
 		EA61016916E6518B000CA810 /* org_chufanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = org_chufanViewController.h; sourceTree = "<group>"; };
 		EA61016A16E6518B000CA810 /* org_chufanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = org_chufanViewController.m; sourceTree = "<group>"; };
 		EA61016D16E6518B000CA810 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/org_chufanViewController.xib; sourceTree = "<group>"; };
+		EA61017716E65201000CA810 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		EA61017816E65201000CA810 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		EA61017A16E65201000CA810 /* SinaWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaWeibo.bundle; sourceTree = "<group>"; };
+		EA61017B16E65201000CA810 /* SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeibo.h; sourceTree = "<group>"; };
+		EA61017C16E65201000CA810 /* SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeibo.m; sourceTree = "<group>"; };
+		EA61017D16E65201000CA810 /* SinaWeiboAuthorizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboAuthorizeView.h; sourceTree = "<group>"; };
+		EA61017E16E65201000CA810 /* SinaWeiboAuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboAuthorizeView.m; sourceTree = "<group>"; };
+		EA61017F16E65201000CA810 /* SinaWeiboConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboConstants.h; sourceTree = "<group>"; };
+		EA61018016E65201000CA810 /* SinaWeiboRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboRequest.h; sourceTree = "<group>"; };
+		EA61018116E65201000CA810 /* SinaWeiboRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 		EA61014516E6518B000CA810 = {
 			isa = PBXGroup;
 			children = (
+				EA61017516E651DD000CA810 /* SinaWeibo */,
 				EA61015716E6518B000CA810 /* SiNoWeiBoUY */,
 				EA61015016E6518B000CA810 /* Frameworks */,
 				EA61014F16E6518B000CA810 /* Products */,
@@ -105,6 +121,41 @@
 				EA61016716E6518B000CA810 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA61017516E651DD000CA810 /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				EA61017616E65201000CA810 /* JSONKit */,
+				EA61017916E65201000CA810 /* SinaWeibo */,
+			);
+			name = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		EA61017616E65201000CA810 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA61017716E65201000CA810 /* JSONKit.h */,
+				EA61017816E65201000CA810 /* JSONKit.m */,
+			);
+			name = JSONKit;
+			path = "../weibo_ios_sdk_sso-oauth/sinaweibo_ios_sdk&demo/sinaweibo_ios_sdk/JSONKit";
+			sourceTree = "<group>";
+		};
+		EA61017916E65201000CA810 /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				EA61017A16E65201000CA810 /* SinaWeibo.bundle */,
+				EA61017B16E65201000CA810 /* SinaWeibo.h */,
+				EA61017C16E65201000CA810 /* SinaWeibo.m */,
+				EA61017D16E65201000CA810 /* SinaWeiboAuthorizeView.h */,
+				EA61017E16E65201000CA810 /* SinaWeiboAuthorizeView.m */,
+				EA61017F16E65201000CA810 /* SinaWeiboConstants.h */,
+				EA61018016E65201000CA810 /* SinaWeiboRequest.h */,
+				EA61018116E65201000CA810 /* SinaWeiboRequest.m */,
+			);
+			name = SinaWeibo;
+			path = "../weibo_ios_sdk_sso-oauth/sinaweibo_ios_sdk&demo/sinaweibo_ios_sdk/SinaWeibo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +215,7 @@
 				EA61016616E6518B000CA810 /* Default@2x.png in Resources */,
 				EA61016816E6518B000CA810 /* Default-568h@2x.png in Resources */,
 				EA61016E16E6518B000CA810 /* org_chufanViewController.xib in Resources */,
+				EA61018316E65201000CA810 /* SinaWeibo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +229,10 @@
 				EA61015E16E6518B000CA810 /* main.m in Sources */,
 				EA61016216E6518B000CA810 /* org_chufanAppDelegate.m in Sources */,
 				EA61016B16E6518B000CA810 /* org_chufanViewController.m in Sources */,
+				EA61018216E65201000CA810 /* JSONKit.m in Sources */,
+				EA61018416E65201000CA810 /* SinaWeibo.m in Sources */,
+				EA61018516E65201000CA810 /* SinaWeiboAuthorizeView.m in Sources */,
+				EA61018616E65201000CA810 /* SinaWeiboRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

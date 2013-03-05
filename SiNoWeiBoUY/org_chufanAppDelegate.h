@@ -10,7 +10,18 @@
 
 @class org_chufanViewController;
 
-@interface org_chufanAppDelegate : UIResponder <UIApplicationDelegate>
+
+#define kAppKey @"2203770072"
+#define kAppSecret @"66b4816876f4dd549751c499555fadcc"
+#define kAppRedirectURI @"http://open.weibo.com/apps/2203770072/privilege/oauth"
+
+@class SinaWeibo;
+
+@interface org_chufanAppDelegate : UIResponder <UIApplicationDelegate>{
+    SinaWeibo *sinaweibo;
+}
+
+@property(readonly,nonatomic) SinaWeibo *sinaweibo;
 
 @property (strong, nonatomic) UIWindow *window;
 
