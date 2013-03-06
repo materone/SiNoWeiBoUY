@@ -14,6 +14,7 @@
 
 @implementation org_chufanViewController
 
+@synthesize mess;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -75,7 +76,19 @@
 - (void)sinaweiboDidLogIn:(SinaWeibo *)sinaweibo
 {
     NSLog(@"sinaweiboDidLogIn userID = %@ accesstoken = %@ expirationDate = %@ refresh_token = %@", sinaweibo.userID, sinaweibo.accessToken, sinaweibo.expirationDate,sinaweibo.refreshToken);
+    [mess setText:[NSString stringWithFormat:@"sinaweiboDidLogIn userID = %@ accesstoken = %@ expirationDate = %@ refresh_token = %@", sinaweibo.userID, sinaweibo.accessToken, sinaweibo.expirationDate,sinaweibo.refreshToken]];
     
+    if (userInfo)
+    {
+        NSLog(@"Screen Name:%@",[userInfo objectForKey:@"screen_name"]);
+    }
+    if (statuses)
+    {
+        if (statuses.count > 0)
+        {
+            NSLog(@"Stats:%@",[[statuses objectAtIndex:0] objectForKey:@"text"]);
+        }
+    }
     [self storeAuthData];
 }
 
