@@ -8,6 +8,7 @@
 
 #import "org_chufanViewController.h"
 #import "org_chufanAppDelegate.h"
+#import "org.chufanNewWeiboViewController.h"
 @interface org_chufanViewController ()
 
 @end
@@ -15,6 +16,7 @@
 @implementation org_chufanViewController
 
 @synthesize mess;
+@synthesize login;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -211,6 +213,36 @@
         
         [postImageStatusText release], postImageStatusText = nil;
     }
+    
+}
+
+-(IBAction)newweibo:(id)sender
+{
+    org_chufanNewWeiboViewController *nweibo = [[[org_chufanNewWeiboViewController alloc] initWithNibName:@"NewWeiboView" bundle:nil] autorelease];    
+    [self.view addSubview:nweibo.view];
+}
+
+-(IBAction)claa:(id)sender{
+        UIImagePickerController *pick = [[UIImagePickerController alloc] init];
+        pick.delegate = self;
+        pick.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+        [self presentViewController:pick animated:YES completion:NULL];
+}
+
+-(IBAction)cl:(id)sender{
+    NSString *text = @"Check out this iPhone App: Birthday Reminder";
+    UIImage *image1 = [UIImage imageNamed:@"Default.png"];
+    NSURL *facebookPageLink = [NSURL
+                               URLWithString:@"http://www.facebook.com/apps/application.php?id=123956661050729"];
+    NSURL *appStoreLink = [NSURL
+                           URLWithString:@"http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=489537509&mt=8"];
+    NSArray *activityItems = @[text,image1,appStoreLink,facebookPageLink];
+    UIActivityViewController *activityViewController = [[UIActivityViewController
+                                                         alloc] initWithActivityItems:activityItems applicationActivities:nil];
+    activityViewController.excludedActivityTypes =
+    @[UIActivityTypePostToWeibo,UIActivityTypePrint,UIActivityTypeCopyToPasteboard,UIActivityTypeAssignToContact,UIActivityTypeSaveToCameraRoll];
+    [self presentViewController:activityViewController animated:YES
+                     completion:nil];
     
 }
 @end

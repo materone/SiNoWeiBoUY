@@ -12,6 +12,7 @@
 #import "SinaWeiboRequest.h"
 @interface org_chufanViewController : UIViewController <SinaWeiboDelegate, SinaWeiboRequestDelegate>{
     IBOutlet UIButton *login;
+    IBOutlet UIButton *newweibo;
     IBOutlet UITextView *mess;
     NSDictionary *userInfo;
     NSArray *statuses;
@@ -21,4 +22,7 @@
 @property (nonatomic,retain) UIButton *login;
 @property (nonatomic,retain) UITextView *mess;
 -(IBAction) login:(id)sender;
+-(IBAction) newweibo:(id)sender;
+-(IBAction) cl:(id)sender;
+-(IBAction) claa:(id)sender;
 @end

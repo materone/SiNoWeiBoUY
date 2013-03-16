@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA04EB5816EBF81B00B75C98 /* NewWeiboView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA04EB5716EBF81B00B75C98 /* NewWeiboView.xib */; };
+		EA0C875516EC0970007B6B0B /* org.chufanNewWeiboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0C875316EC0970007B6B0B /* org.chufanNewWeiboViewController.m */; };
 		EA61015216E6518B000CA810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61015116E6518B000CA810 /* UIKit.framework */; };
 		EA61015416E6518B000CA810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61015316E6518B000CA810 /* Foundation.framework */; };
 		EA61015616E6518B000CA810 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61015516E6518B000CA810 /* CoreGraphics.framework */; };
@@ -26,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA04EB5716EBF81B00B75C98 /* NewWeiboView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewWeiboView.xib; sourceTree = "<group>"; };
+		EA0C875216EC0970007B6B0B /* org.chufanNewWeiboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org.chufanNewWeiboViewController.h; sourceTree = "<group>"; };
+		EA0C875316EC0970007B6B0B /* org.chufanNewWeiboViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = org.chufanNewWeiboViewController.m; sourceTree = "<group>"; };
 		EA61014E16E6518B000CA810 /* SiNoWeiBoUY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiNoWeiBoUY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA61015116E6518B000CA810 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA61015316E6518B000CA810 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +109,9 @@
 				EA61016916E6518B000CA810 /* org_chufanViewController.h */,
 				EA61016A16E6518B000CA810 /* org_chufanViewController.m */,
 				EA61016C16E6518B000CA810 /* org_chufanViewController.xib */,
+				EA04EB5716EBF81B00B75C98 /* NewWeiboView.xib */,
+				EA0C875216EC0970007B6B0B /* org.chufanNewWeiboViewController.h */,
+				EA0C875316EC0970007B6B0B /* org.chufanNewWeiboViewController.m */,
 				EA61015816E6518B000CA810 /* Supporting Files */,
 			);
 			path = SiNoWeiBoUY;
@@ -216,6 +224,7 @@
 				EA61016816E6518B000CA810 /* Default-568h@2x.png in Resources */,
 				EA61016E16E6518B000CA810 /* org_chufanViewController.xib in Resources */,
 				EA61018316E65201000CA810 /* SinaWeibo.bundle in Resources */,
+				EA04EB5816EBF81B00B75C98 /* NewWeiboView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +242,7 @@
 				EA61018416E65201000CA810 /* SinaWeibo.m in Sources */,
 				EA61018516E65201000CA810 /* SinaWeiboAuthorizeView.m in Sources */,
 				EA61018616E65201000CA810 /* SinaWeiboRequest.m in Sources */,
+				EA0C875516EC0970007B6B0B /* org.chufanNewWeiboViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +363,7 @@
 				EA61017316E6518C000CA810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
